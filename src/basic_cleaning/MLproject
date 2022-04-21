@@ -6,27 +6,27 @@ entry_points:
     parameters:
 
       input_artifact:
-        description: ## ADD DESCRIPTION
+        description: Name of the artifact
         type: string
 
       output_artifact:
-        description: ## ADD DESCRIPTION
+        description: Name of the clean artifact
         type: string
 
       output_type:
-        description: ## ADD DESCRIPTION
+        description: Type of clean_sample
         type: string
 
       output_description:
-        description: ## ADD DESCRIPTION
+        description: Description of the preprocessed data
         type: string
 
       min_price:
-        description: ## ADD DESCRIPTION
+        description: Min price considered for the prediction column
         type: string
 
       max_price:
-        description: ## ADD DESCRIPTION
+        description: Max price considered for the prediction column
         type: string
 
 
