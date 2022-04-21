@@ -71,5 +71,4 @@ def test_price_range(data, min_price, max_price):
     """
     Check if the price range is between min_price and max_price
     """
-    price_idx = data['price'].between(min_price, max_price)
-    assert np.sum(~price_idx) == 0
+    assert data.shape[0] == data['price'].between(min_price, max_price).shape[0]
